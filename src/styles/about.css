@@ -1,0 +1,36 @@
+.about {
+    padding-left: 15%;
+    padding-right: 25%;
+    min-height: 60%;
+    font-family: 'Roboto', sans-serif ;
+  }
+.aboutTitle{
+    font-size: 40px;
+    font-weight: bold;
+  }
+.Description1{
+    max-width: 600px;
+    font-size: 20px;
+    text-align: justify;
+    margin: 0;  
+}
+.Description1 ul {
+    padding-top: 20px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(150px, 10px));
+  }
+  
+.Description1 li {
+    position: relative;
+    padding-left: 20px;
+    font-size: 17px;
+  }
+
+.Description1 a,
+.Description1  b {
+  font-size: 21px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
