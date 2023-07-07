@@ -14,7 +14,7 @@ const About = () => {
   const two = (
     <p>
       In my free time I enjoy reading, watching a lot of TV and movies, and
-      attending concerts.
+      attending concerts. I also enjoy my fair share of books.
     </p>
   );
 
