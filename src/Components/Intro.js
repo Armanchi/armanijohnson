@@ -1,9 +1,11 @@
 import React from 'react'
+import '../styles/Intro.css'
+
 
 const Intro = () => {
   return (
-    <div>
-        <h1>
+    <div className='Intro'>
+        <h1 className='IntroTitle'>
         Hello, I'm Armani!
         </h1>
         <div>
