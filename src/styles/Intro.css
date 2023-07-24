@@ -1,4 +1,4 @@
-.Intro {
+#Intro {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -24,7 +24,7 @@
 .subTitle{
     font-size: 40px;
     margin-top: -2px;
-    color: #C6DBB4;
+    color:gray;
     opacity: 70%;
 }
 
@@ -39,9 +39,9 @@
 .intro-button{
   align-items: center;
   background-color: transparent;
-  border: 2px solid #0B4200;
+  border: 2px solid black;
   box-sizing: border-box;
-  color: black;
+  color: gray;
   cursor: pointer;
   display: inline-flex;
   font-size: 16px;
@@ -62,24 +62,24 @@
 }
 .intro-button a{
   text-decoration: none;
-  color: black;
+  color: gray;
 }
 .intro-button:focus {
-  color: #171e29;
+  color: gray;
 }
 
 .intro-button:hover {
   border-color: #C6DBB4;
-  color: #9aadbf;
-  fill: #0B4200;
+  color: black;
+  fill: gray;
 }
 .intro-button a:hover{
-  color:#C6DBB4;
+  color:black;
 }
 
 .intro-button:active {
   border-color: #9aadbf;
-  color: #9aadbf;
+  color: black;
   fill: #9aadbf;
 }
 

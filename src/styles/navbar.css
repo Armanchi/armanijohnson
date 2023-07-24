@@ -26,11 +26,11 @@ nav {
   
   a {
     text-decoration: none !important;
-    color: black;
+    color: gray;
   }
   
   a:hover {
-    color:#0B4200!important;
+    color:black !important;
   }
   
   .sidebar-logos {

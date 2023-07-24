@@ -7,7 +7,7 @@ import { GitHub } from '@mui/icons-material';
 
 const Navbar = () => {
     const links = [
-        <a href='#intro'>home</a>,
+        <a href='#Intro'>home</a>,
         <a href='#about'>about</a>,
         <a href='#projects'>projects</a>
     ];
