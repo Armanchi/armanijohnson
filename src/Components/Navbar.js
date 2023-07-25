@@ -35,7 +35,6 @@ const Navbar = () => {
            <a href="mailto:armanijohnson0104@gmail.com">
             <EmailRounded style={{ fontSize: 20 }}></EmailRounded>
           </a>
-         
         </div>
         </Sidenav.Body>
           </Sidenav>

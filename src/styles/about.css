@@ -24,7 +24,7 @@
     margin: 0;  
 }
 .Description1 ul {
-    padding-top: 20px;
+    padding-top: 5px;
     list-style-type:none;
     display: grid;
     grid-template-columns: repeat(2, minmax(150px, 10px));
