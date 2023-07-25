@@ -9,7 +9,8 @@ const Navbar = () => {
     const links = [
         <a href='#Intro'>home</a>,
         <a href='#about'>about</a>,
-        <a href='#projects'>projects</a>
+        <a href='#projects'>projects</a>,
+        <a href='#contact'>contact</a>
     ];
   return (
     <div className="nav">

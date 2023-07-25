@@ -69,7 +69,7 @@
 }
 
 .intro-button:hover {
-  border-color: #C6DBB4;
+  border-color: gray;
   color: black;
   fill: gray;
 }
