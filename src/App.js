@@ -3,6 +3,8 @@ import Intro from "./Components/Intro";
 import './Shared/globalStyles.css'
 import About from "./Components/About";
 import background from './assets/background.jpg'
+import Projects from "./Components/Projects";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
     <div className="App">
       <Intro />
       <About />
+      <Projects />
+      <Footer />
     </div>
     </>
   );

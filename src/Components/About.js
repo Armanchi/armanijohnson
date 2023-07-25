@@ -13,8 +13,8 @@ const About = () => {
   );
   const two = (
     <p>
-      In my free time I enjoy reading, watching art history video essays on YouTube, and
-      attending concerts and conventions.
+      In my free time I enjoy reading, watching a lot of TV and movies, and
+      attending concerts. I also enjoy my fair share of books.
     </p>
   );
 
@@ -32,7 +32,7 @@ const About = () => {
     <div className='about'>
       <div>
         <span className='aboutTitle'>
-            About me
+            about me
         </span>
       </div>
     <div>
