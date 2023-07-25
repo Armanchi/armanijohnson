@@ -7,7 +7,7 @@ import { BsFillChatSquareFill } from "react-icons/bs";
 
 const Intro = () => {
     return(
-        <div className="Intro">
+        <div id="Intro">
         <div className="main-container">
         <div className="typewriter">
         <Typewriter onInit={(typewriter)=> {typewriter
