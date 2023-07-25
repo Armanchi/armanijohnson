@@ -23,20 +23,22 @@ const Navbar = () => {
                     <div>{link}</div>
                 ))}
               </div>
-            </Sidenav.Body>
-          </Sidenav>
+          
        
         <div className="logos" href="/">
-          <a href="mailto:armanijohnson0104@gmail.com">
-            <EmailRounded style={{ fontSize: 20 }}></EmailRounded>
+           <a href="https://www.linkedin.com/in/armani-d-johnson/">
+            <LinkedIn style={{ fontSize: 21 }}></LinkedIn>
           </a>
           <a href="https://github.com/Armanchi">
             <GitHub style={{ fontSize: 19 }}></GitHub>
           </a>
-          <a href="https://www.linkedin.com/in/armani-d-johnson/">
-            <LinkedIn style={{ fontSize: 21 }}></LinkedIn>
+           <a href="mailto:armanijohnson0104@gmail.com">
+            <EmailRounded style={{ fontSize: 20 }}></EmailRounded>
           </a>
+         
         </div>
+        </Sidenav.Body>
+          </Sidenav>
       </div>
     );
   }
