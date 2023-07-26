@@ -9,8 +9,10 @@ const About = () => {
       at Houston Community College{" "} 
       and React at <a href="https://codethedream.org/"> Code the Dream</a>. <br />
       I am interested in creating web pages and applications that 
-      can be used to better lives.<br />
-      <br/>I have experience creating with:
+      can be used by anyone to better lives. I love that coing requires you to
+      continually expand your knowledge<br />
+      <br/>
+      I have experience creating with:
     </p>
   );
   const two = (

@@ -73,3 +73,18 @@ textarea {
       min-width: 170px;
     }
   }
+  @media only screen and (max-width: 600px) {
+    #contact {
+        height: unset;
+        padding-left: unset;
+        padding-right: unset;
+        padding-top: 30%;
+      }
+      .contactTitle{
+        font-size: 32px;
+      }
+      input,textarea {
+        width: 80%;
+      }
+      
+}
