@@ -1,0 +1,90 @@
+#contact {
+    padding-left: 15%;
+    padding-right: 25%;
+    padding-top: 10%;
+    padding-bottom: 8%;
+    min-height: 60vh;
+} 
+.form-group {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contactTitle{
+    font-size: 48px;
+    font-weight: bold;
+    color: gray;
+}
+.contact-button{
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid black;
+    box-sizing: border-box;
+    color: gray;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 600;
+    height: 38px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.contact-button:focus {
+    color: gray;
+}
+.contact-button:hover {
+    border-color: gray;
+    color: black;
+    fill: gray;
+}  
+ .contact-button a:hover{
+    color:black;
+}
+.contact-button:active {
+    border-color: #9aadbf;
+    color: black;
+    fill: #9aadbf;
+  }
+  
+@media (min-width: 768px) {
+      .contact-button {
+      min-width: 170px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    #contact {
+        height: unset;
+        padding-left: unset;
+        padding-right: unset;
+        padding-top: 30%;
+      }
+      .contactTitle{
+        font-size: 32px;
+      }
+      input,textarea {
+        width: 80%;
+      }
+      
+}

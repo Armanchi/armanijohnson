@@ -6,10 +6,13 @@ const About = () => {
   const one = (
     <p>
       Currently I am studying Applications Development with Java
-      at <a href="https://www.hccs.edu/">Houston Community College</a>{" "} 
+      at Houston Community College{" "} 
       and React at <a href="https://codethedream.org/"> Code the Dream</a>. <br />
-      I am interested in any type of web development where I can 
-      use problem solving creatively.<br />
+      I am interested in creating web pages and applications that 
+      can be used by anyone to better lives. I love that coing requires you to
+      continually expand your knowledge<br />
+      <br/>
+      I have experience creating with:
     </p>
   );
   const two = (
