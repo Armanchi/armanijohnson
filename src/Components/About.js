@@ -5,7 +5,7 @@ import about from '../assets/about.jpg';
 const About = () => {
   const one = (
     <p>
-      Currently, I am studying Applications Development with Java
+      Currently, I am studying Computer Science
       at Houston Community College{" "} 
       and React at <a href="https://codethedream.org/">Code the Dream</a>. <br />
       I am interested in creating web pages and applications that 
@@ -18,8 +18,8 @@ const About = () => {
 
   const two = (
     <p>
-      In my free time, I enjoy reading, watching a lot of TV and movies, and
-      attending concerts. I also enjoy my fair share of books.
+      In my free time, I enjoy reading science fiction or mystery books, watching a lot of TV and movies, and
+      attending concerts. 
     </p>
   );
 
